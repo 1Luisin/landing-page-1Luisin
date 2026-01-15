@@ -3,7 +3,13 @@
     src: url('../fonts/Inter_18pt-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'FontInter-Bold';
+    src: url('../fonts/Inter_18pt-Bold.ttf');
+    font-weight: normal;
+    font-style:bold;
 }
 
 body{
@@ -19,3 +25,25 @@ a{
 a:hover{
 text-decoration: none;
 }
+
+h1,h2,h3{
+    font-family: 'FontInter-Bold';
+    letter-spacing: -1px;
+}
+
+p{
+    letter-spacing: -1px;
+    font-size: 28px;
+    color:rgba(240, 248, 255, 0.637);
+}
+
+#menu-navegacao{
+    font-size: 22px;
+}
+
+#icon{
+    width: 199px;
+    height: 199px;
+    border-radius: 10%;
+}
+
