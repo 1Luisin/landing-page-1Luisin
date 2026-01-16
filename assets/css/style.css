@@ -17,13 +17,16 @@ body{
     color:aliceblue;
     font-family: 'FontInter';
 }
+
 a{
     text-decoration: none;
     color:aliceblue;
 }
+
 a:hover{
 text-decoration: none;
 }
+
 h1,h2,h3{
     font-family: 'FontInter-Bold';
     letter-spacing: -1px;
@@ -37,11 +40,32 @@ p{
 
 #menu-navegacao{
     font-size: 22px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
 }
+
+#logotipo{
+    display: flex;
+    flex-direction:row;
+}
+
+#botao-contato{
+    display: flex;
+    flex-direction:row;
+}
+#container{
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 
 #icon{
     width: 199px;
     height: 199px;
     border-radius: 10%;
 }
-
