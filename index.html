@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <title>1Luisin</title>
 </head>
 <body>
     <header>
             <nav id="menu-navegacao">
-                <span><a href="#">1Luisin</a></span>
-                <span><a href="#">Início</a></span>
-                <span><a href="#">Sobre</a></span>
-                <span><a href="#">Projetos</a></span>
-                <span><a href="#">Contato</a></span>
-                <span id="botao-contato"><a href="#">Entrar em Contato</a></span>
+                <div id="logotipo">
+                    <span><a href="#">1Luisin</a></span>
+                </div>
+                <div id="menu-principal">
+                    <span><a href="#">Início</a></span>
+                    <span><a href="#">Sobre</a></span>
+                    <span><a href="#">Projetos</a></span>
+                    <span><a href="#">Contato</a></span>
+                </div>
+                <div id="botao-contato">
+                    <span><a href="#" class="texto-contato">Entrar em Contato</a></span>
+                </div>
             </nav>
     </header>
 
-    <main>
-        <aside>
-            <img id="icon" src="./assets/img/icon.jpg" alt="imagem-luis.png">
-            <h1>1Luisin</h1>
-            <h3>Developer & Designer</h3>
-            <a href="#">Entrar em Contato</a>
+    <main id="conteudo-principal">
+        <aside id="container">
+            <div id="info">
+                <img id="icon" src="./assets/img/icon.jpg" alt="imagem-luis.png">
+                <div id="nickname">
+                    <h1>1Luisin</h1>
+                </div>
+                <div id="descricao">
+                    <p>Developer & Designer</p>
+                    <div id="contato-card">
+                        <div id="botao-contato">
+                            <a href="#" class="texto-contato">Entrar em Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </aside>
         
-        <div>
-            <h1>Luis Guilherme, 19 anos</h1>
-            <p>Meu nome é Luis Guilherme e sou completamente apaixonado pelo campo da tecnologia desde o momento em que comecei a trabalhar com manutenção de hardware.</p>
+        <div id="text">
+            <h1 id="title">Luis Guilherme, 19 anos</h1>
+            <p id="subtitle">Meu nome é Luis Guilherme e sou completamente apaixonado pelo campo da tecnologia desde o momento em que comecei a trabalhar com manutenção de hardware.</p>
         </div>
 
     </main>
