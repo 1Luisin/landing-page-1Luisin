@@ -26,7 +26,7 @@ body{
 a{
     text-decoration: none;
     color:aliceblue;
-    font-weight: lighter; /* "Extra Light" */
+    font-weight: lighter;
     transition: color 0.2s ease-in-out, width 0.5s linear;
 
 }
@@ -65,50 +65,8 @@ p{
     font-size: 27px;
 }
 
-#menu-navegacao{
-    background-color:rgb(53, 53, 53);    
-    display:flex;
-    align-items: center; /*alinha os itens verticalmente dentro da div*/
-    padding: 0 24px; /*definindo o espaço entre a borda e o elemento  */
-    height: 75px;
-}
 
-#menu-principal{
-    display:flex;
-    justify-content: center;
-    margin-left: 6%;
-    gap: 70px;
-    flex: 1;
-}
 
-#logotipo{
-    display: flex;
-    font-size: 30px;
-    font-family: 'JollyLodger-Regular';
-}
-
-.texto-contato{
-    color:rgb(53, 53, 53);
-}
-
-.texto-contato:hover{
-    color:rgb(53, 53, 53);
-}
-
-.botao-contato{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius:20px;
-    width: 150px;
-    height: 30px;
-    background-color: rgb(255, 255, 255);
-    transition: background-color 0.2s ease-in-out, width 0.5s linear;
-}
-
-.botao-contato:hover{
-    background-color:rgba(255, 255, 255, 0.61);
-}
 
 #container{
     width: 320px;
