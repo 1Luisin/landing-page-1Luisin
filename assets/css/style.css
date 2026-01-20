@@ -65,9 +65,6 @@ p{
     font-size: 27px;
 }
 
-
-
-
 #container{
     width: 320px;
     height: 340px;
@@ -82,13 +79,7 @@ p{
     margin-left: 40px;
 }
 
-#icon-container{
-    align-self: center;
-    margin-top: 34px;
-    width: 139px;
-    height: 139px;
-    border-radius: 10%;
-}
+
 
 #info-container{
     display: flex;
