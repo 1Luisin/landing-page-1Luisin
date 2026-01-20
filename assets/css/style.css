@@ -45,7 +45,7 @@ p{
     color:rgb(240, 248, 255);
 }
 
-#text{
+#text-area{
     grid-area: text;
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ p{
     color:rgb(53, 53, 53);
 }
 
-#botao-contato{
+.botao-contato{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +106,7 @@ p{
     transition: background-color 0.2s ease-in-out, width 0.5s linear;
 }
 
-#botao-contato:hover{
+.botao-contato:hover{
     background-color:rgba(255, 255, 255, 0.61);
 }
 
@@ -124,7 +124,7 @@ p{
     margin-left: 40px;
 }
 
-#icon{
+#icon-container{
     align-self: center;
     margin-top: 34px;
     width: 139px;
@@ -132,23 +132,23 @@ p{
     border-radius: 10%;
 }
 
-#info{
+#info-container{
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
 }
 
-#nickname{
+#nick-container{
     text-align: center;
     margin-top: 15px;
 }
 
-#descricao{
+#desc-container{
     margin-top: 5px;
 }
 
-#contato-card{
+#contato-container{
     margin-top:20px ;
 }
 
