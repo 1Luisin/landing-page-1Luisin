@@ -59,7 +59,7 @@ p{
 #subtitle{    
     color:rgba(240, 248, 255, 0.555);
     font-size: 17px;
-
+    grid-area: subtitle;
 }
 #title{
     font-size: 27px;
@@ -101,9 +101,21 @@ p{
     margin-top:20px ;
 }
 
-#conteudo-principal{
+#primeira-tela{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "container text";
     height: 80vh;
+}
+
+#imagem-escritorio{
+    grid-area: imagem-escritorio;
+}
+
+
+#segunda-tela{
+    background-color: rgb(44, 44, 44);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
 }

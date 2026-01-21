@@ -1,3 +1,5 @@
 TO FIX :
 
 RENAME ALL CLASS'S & ID'S. 
+
+fixed 💚
