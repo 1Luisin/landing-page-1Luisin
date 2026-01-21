@@ -38,7 +38,6 @@ color: rgba(240, 248, 255, 0.671);
 
 h1,h2,h3{
     font-family: 'FontInter-Bold';
-    
 }
 
 p{
@@ -56,11 +55,12 @@ p{
     gap: 20px;
 }
 
-#subtitle{    
+.subtitle{    
     color:rgba(240, 248, 255, 0.555);
     font-size: 17px;
     grid-area: subtitle;
 }
+
 #title{
     font-size: 27px;
 }
@@ -101,21 +101,31 @@ p{
     margin-top:20px ;
 }
 
+#div-img{
+    grid-area: escritorio;
+}
+
+#text-area2{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+    width: 70%;
+    grid-area: area-texto2;
+    gap:10px;
+}
+
 #primeira-tela{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "container text";
     height: 80vh;
 }
-
-#imagem-escritorio{
-    grid-area: imagem-escritorio;
-}
-
-
 #segunda-tela{
     background-color: rgb(44, 44, 44);
     display:grid;
     grid-template-columns: 1fr 1fr;
-
+    grid-template-areas: "escritorio area-texto2"
 }
+
+
+
