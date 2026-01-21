@@ -61,8 +61,8 @@ p{
     grid-area: subtitle;
 }
 
-#title{
-    font-size: 27px;
+.title{
+    font-size: 23px;
 }
 
 #container{
@@ -102,17 +102,22 @@ p{
 }
 
 #div-img{
+    display: flex;
+    align-items: center;
     grid-area: escritorio;
+    
 }
 
 #text-area2{
     display:flex;
     align-self: center;
     justify-self: center;
+    flex-direction: column;
     width: 70%;
     grid-area: area-texto2;
     gap:10px;
 }
+
 
 #primeira-tela{
     display: grid;
@@ -124,7 +129,8 @@ p{
     background-color: rgb(44, 44, 44);
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "escritorio area-texto2"
+    grid-template-areas: "escritorio area-texto2";
+    height: 660px;
 }
 
 
