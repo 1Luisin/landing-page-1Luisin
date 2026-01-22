@@ -65,6 +65,9 @@ p{
     font-size: 23px;
 }
 
+
+
+
 #container{
     width: 320px;
     height: 340px;
@@ -105,7 +108,12 @@ p{
     display: flex;
     align-items: center;
     grid-area: escritorio;
-    
+}
+
+#div-img2{
+    display: flex;
+    align-items: center;
+    grid-area: gray-code;
 }
 
 #text-area2{
@@ -118,6 +126,15 @@ p{
     gap:10px;
 }
 
+#text-area3{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    width: 70%;
+    grid-area: area-texto3;
+    gap:10px;
+}
 
 #primeira-tela{
     display: grid;
@@ -125,7 +142,7 @@ p{
     grid-template-areas: "container text";
     height: 80vh;
 }
-#segunda-tela{
+#tela-sobre{
     background-color: rgb(44, 44, 44);
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -133,5 +150,11 @@ p{
     height: 660px;
 }
 
-
+#tela-projetos{
+    background-color: rgb(31, 31, 31);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "area-texto3 gray-code";
+    height: 660px;
+}
 
