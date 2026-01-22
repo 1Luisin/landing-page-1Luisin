@@ -158,3 +158,19 @@ p{
     height: 660px;
 }
 
+#tela-contato{
+    background-color:#ffffff;
+    height: 360px;
+    color:black;
+    
+}
+
+#card-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(235, 237, 236);
+    width: 92%;
+    height: 60%;
+}
