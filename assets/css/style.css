@@ -142,7 +142,7 @@ p{
     grid-template-areas: "container text";
     height: 80vh;
 }
-#segunda-tela{
+#tela-sobre{
     background-color: rgb(44, 44, 44);
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -150,7 +150,7 @@ p{
     height: 660px;
 }
 
-#terceira-tela{
+#tela-projetos{
     background-color: rgb(31, 31, 31);
     display:grid;
     grid-template-columns: 1fr 1fr;
