@@ -133,5 +133,9 @@ p{
     height: 660px;
 }
 
-
+#terceira-tela{
+    background-color: rgb(31, 31, 31);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
 
