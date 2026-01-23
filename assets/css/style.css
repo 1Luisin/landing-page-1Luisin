@@ -168,11 +168,28 @@ p{
 }
 
 #card-contatos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "primeiro-grid segundo-grid";
     border-radius: 30px;
     background-color: rgb(235, 237, 236);
     width: 92%;
     height: 80%;
+}
+#form-cnt{
+ display: flex;
+ flex-direction: column;
+}
+
+#primeiro-grid{
+    grid-area: primeiro-grid;
+    display: flex;
+    flex-direction: column;
+}
+
+#segundo-grid{
+    grid-area: segundo-grid;
+    display: flex;
+    align-self:top;
+    justify-self: center;
 }
