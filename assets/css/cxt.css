@@ -1,3 +1,18 @@
 .cxt{
-    
+    border-width: 1.4px;
+    border-radius: 5px;
+    border-style:solid;
+    height: 24px;
+    border-color: rgb(151, 151, 151);
+    transition: background-color 0.2s ease-in-out, width 0.5s linear;
+    outline: none;
+}
+
+.cxt:hover{
+background-color: rgb(212, 212, 212);
+}
+
+#assunto{
+    resize: none;
+    height: 50px;
 }

@@ -172,7 +172,8 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "primeiro-grid segundo-grid";
     border-radius: 30px;
-    background-color: rgb(235, 237, 236);
+   background: #e8e8e8;
+background: linear-gradient(5deg,rgba(232, 232, 232, 1) 0%, rgba(196, 196, 196, 1) 100%);
     width: 92%;
     height: 80%;
 }
@@ -202,3 +203,11 @@ p{
     margin-top: 12%;
 }
 
+#titulo-cnt{
+    margin-bottom: 20px;
+
+}
+
+.cxt{
+    font-family: 'FontInter';
+}
