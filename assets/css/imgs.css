@@ -23,3 +23,21 @@
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
+#area-icons-cnt{
+    display:flex;
+    flex-direction: row;
+    gap:20px
+}
+.icons-cnt{
+    height: 35px;
+    
+}
+
+#gif-cnt{
+    margin-top: 70px;
+}
+
+#gif{
+    height: 120px;
+}
