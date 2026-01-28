@@ -7,6 +7,11 @@ Landing page pessoal feita em HTML e CSS para apresentar perfil, sobre, projetos
 1. Abra o arquivo `index.html` no navegador.
 2. Pronto: a pagina carrega os estilos e imagens via `assets/`.
 
+## Capturas de tela
+
+![Desktop](assets/screenshots/desktop.png)
+![Mobile](assets/screenshots/mobile.png)
+
 ## Estrutura do projeto
 
 - `index.html`: markup principal da landing page.
