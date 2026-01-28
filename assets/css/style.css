@@ -205,9 +205,13 @@ background: linear-gradient(5deg,rgba(232, 232, 232, 1) 0%, rgba(196, 196, 196, 
 
 #titulo-cnt{
     margin-bottom: 20px;
-
 }
 
 .cxt{
     font-family: 'FontInter';
+}
+
+.list{
+    margin-left: 50px;
+    color: #cccccc;
 }
