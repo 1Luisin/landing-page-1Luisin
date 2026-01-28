@@ -176,6 +176,7 @@ p{
     background: linear-gradient(5deg,rgba(232, 232, 232, 1) 0%, rgba(196, 196, 196, 1) 100%);
     width: 92%;
     height: 80%;
+    
 }
 #form-cnt{
     display: flex;
@@ -190,7 +191,7 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    margin-top: 12%;
+    margin-top: 9%;
 
 }
 
@@ -200,7 +201,7 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    margin-top: 12%;
+    margin-top: 9%;
 }
 
 #titulo-cnt{
@@ -232,3 +233,4 @@ p{
     gap:10px;
     height: 250px;
 }
+
