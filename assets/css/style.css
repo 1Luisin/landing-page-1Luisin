@@ -18,6 +18,7 @@
 }
 
 :root{
+    --clr-container: rgb(92, 92, 92);
     --ff-primary: "FontInter";
     --ff-primary-bold: "FontInter-Bold";
     --clr-primary: rgba(58, 58, 58, 1);
@@ -25,17 +26,19 @@
     --clr-tertiary: rgb(31, 31, 31);
     --clr-quaternary: #e8e8e8;
     --clr-quaternary-background: linear-gradient(5deg,rgba(232, 232, 232, 1) 0%, rgba(196, 196, 196, 1) 100%);
+    --clr-ff: aliceblue;
+    --clr-white: #ffffff;
 }   
 
 body{
-    background-color: rgba(58, 58, 58, 1);
-    color:aliceblue;
+    background-color: var(--clr-primary);
+    color:var(--clr-ff);
     font-family: var(--ff-primary);
 }
 
 a{
     text-decoration: none;
-    color:aliceblue;
+    color: var(--clr-ff);
     font-weight: lighter;
     transition: color 0.2s ease-in-out, width 0.5s linear;
 
@@ -75,13 +78,10 @@ p{
     font-size: 23px;
 }
 
-
-
-
 #container{
     width: 320px;
     height: 340px;
-    background-color: rgb(92, 92, 92);
+    background-color: var(--clr-container);
     display: flex;
     border-radius: 20px;
     flex-direction: column;
@@ -153,7 +153,7 @@ p{
     height: 80vh;
 }
 #tela-sobre{
-    background-color: rgb(44, 44, 44);
+    background-color: var(--clr-secondary);
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "escritorio area-texto2";
@@ -161,7 +161,7 @@ p{
 }
 
 #tela-projetos{
-    background-color: rgb(31, 31, 31);
+    background-color: var(--clr-tertiary);
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "area-texto3 gray-code";
@@ -172,7 +172,7 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:#ffffff;
+    background-color: var(--clr-white);
     height: 500px;
     color:rgb(34, 34, 34);   
 }
@@ -182,7 +182,7 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "primeiro-grid segundo-grid";
     border-radius: 30px;
-    background: #e8e8e8;
+    background-color: var(--clr-quaternary);
     background: linear-gradient(5deg,rgba(232, 232, 232, 1) 0%, rgba(196, 196, 196, 1) 100%);
     width: 92%;
     height: 80%;
