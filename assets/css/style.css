@@ -17,10 +17,20 @@
     src: url('../fonts/JollyLodger-Regular.ttf');
 }
 
+:root{
+    --ff-primary: "FontInter";
+    --ff-primary-bold: "FontInter-Bold";
+    --clr-primary: rgba(58, 58, 58, 1);
+    --clr-secondary: rgb(44, 44, 44);
+    --clr-tertiary: rgb(31, 31, 31);
+    --clr-quaternary: #e8e8e8;
+    --clr-quaternary-background: linear-gradient(5deg,rgba(232, 232, 232, 1) 0%, rgba(196, 196, 196, 1) 100%);
+}   
+
 body{
     background-color: rgba(58, 58, 58, 1);
     color:aliceblue;
-    font-family: 'FontInter';
+    font-family: var(--ff-primary);
 }
 
 a{
@@ -37,7 +47,7 @@ color: rgba(240, 248, 255, 0.671);
 }
 
 h1,h2,h3{
-    font-family: 'FontInter-Bold';
+    font-family: var(--ff-primary-bold);
 }
 
 p{
