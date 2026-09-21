@@ -29,7 +29,7 @@ As outras folhas de estilo são arquivos legados e não são carregadas pela pá
 ## Personalização
 
 Edite textos e endereços no HTML. As cores estão nas variáveis de `:root` no CSS.
-O projeto em destaque é este portfólio; o botão leva ao perfil do GitHub. Para destacar outros trabalhos, adicione apenas projetos reais e seus links específicos.
+O carrossel apresenta cinco projetos, com capturas reais em `assets/img/projects/`, descrições, tecnologias e links para o projeto e o perfil do GitHub. A navegação está em `assets/js/projects.js`, com setas, indicadores, teclado e toque. As imagens originais foram copiadas sem alterações.
 Não há formulário nem processamento de mensagens. Para adicionar envio por e-mail, será necessário configurar um serviço e o endereço de destino.
 
 ## Verificação
