@@ -1,186 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/botoes.css">
-    <link rel="stylesheet" href="./assets/css/imgs.css">
-    <link rel="stylesheet" href="./assets/css/cxt.css">
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <title>1Luisin</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Luis Guilherme: desenvolvimento web, estudos em .NET e design de interfaces. Conheça meu trabalho e vamos conversar.">
+  <meta name="theme-color" content="#141616">
+  <title>Luis Guilherme — Desenvolvimento & Design</title>
+  <link rel="icon" href="./assets/img/icon.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
 <body>
-    <header>
-        <nav id="menu-navegacao">
-            <div id="logotipo">
-                <span><a href="#">1Luisin</a></span>
-            </div>
-            <div id="menu-principal">
-                <span><a href="#">Início</a></span>
-                <span><a href="#">Sobre</a></span>
-                <span><a href="#">Projetos</a></span>
-                <span><a href="#">Contato</a></span>
-            </div>
-            <div class="botao-contato">
-                <span><a href="#" class="texto-contato">Entrar em Contato</a></span>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div id="primeira-tela">
-            <aside id="container">
-                <div id="info-container">
-                    <img id="icon-container" src="./assets/img/icon.jpg" alt="imagem-luis.png">
-                    <div id="nick-container">
-                        <h1>1Luisin</h1>
-                    </div>
-                    <div id="desc-container">
-                        <p>Developer & Designer</p>
-                        <div id="contato-container">
-                            <div class="botao-contato">
-                                <a href="#" class="texto-contato">Entrar em Contato</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-
-            <div id="text-area">
-                <h1 class="title">Luis Guilherme, 19 anos</h1>
-                <p class="subtitle">Olá! Eu sou Luis Guilherme dos Santos Ferreira, estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia e design desde cedo.</p>
-            </div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="1Luisin — início">1Luisin<span>.</span></a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero container" id="inicio" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> DESENVOLVIMENTO & DESIGN</p>
+        <h1 id="titulo">Ideias na cabeça.<br>Código na tela<span class="accent">.</span></h1>
+        <p class="hero-intro">Olá, eu sou <strong>Luis Guilherme.</strong></p>
+        <p class="hero-description">Estudante de Análise e Desenvolvimento de Sistemas, explorando a conexão entre código bem estruturado e interfaces que fazem sentido.</p>
+        <div class="actions">
+          <a class="button button-primary" href="#projetos">Conheça meu trabalho <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#contato">Vamos conversar <span aria-hidden="true">→</span></a>
         </div>
-
-        <div id="tela-sobre">
-            <div id="div-img">
-                <img id="imagem-escritorio" src="/assets/img/escritorio.jpg" alt="">
-            </div>
-            <div id="text-area2">
-                <h1 class="title">Sobre Mim</h1>
-                <p class="subtitle">
-                     Sempre fui o tipo de pessoa curiosa que quer entender como as coisas funcionam por trás da tela, e foi isso que me levou para o mundo da programação.
-                </p>
-                <p class="subtitle">
-                    Tenho focado meus estudos principalmente em desenvolvimento web e .Net, construindo projetos próprios para evoluir tanto na lógica quanto na estrutura de aplicações reais. Gosto de transformar ideias em sistemas funcionais, organizados e com propósito, não apenas código solto.
-                </p>
-                <p class="subtitle">
-                    Fora da área técnica, gosto de animes, jogos e cultura oriental, o que também influencia minha criatividade e forma de enxergar o mundo. Hoje, meu foco é crescer profissionalmente, conquistar minha independência e me tornar um desenvolvedor cada vez mais completo.
-                </p>
-                
-            </div>
-        </div>
-
-        <div id="tela-projetos">
-            <div id="div-img2">
-                    <img id="imagem-code" src="./assets/img/black-white-code.png" alt="">
-            </div>
-            
-            <div id="text-area3">
-                 <h1 class="title">Projetos</h1>
-                <p class="subtitle">
-                   Eu acredito que a melhor forma de aprender tecnologia é construindo, por isso estou sempre criando aplicações que simulam cenários reais do mercado. Meus projetos envolvem desde sistemas com CRUD e APIs, até interfaces web estruturadas e organizadas.
-                </p>
-                <p class="subtitle">
-                    Neles, busco aplicar conceitos como:
-                    <ul class="list">
-                        <li>
-                            Organização de código
-                        </li>
-                        <li>
-                            Separação de responsabilidades
-                        </li>
-                        <li>
-                            Integração entre front-end e back-end
-                        </li>
-                        <li>
-                            Uso de banco de dados
-                        </li>
-                        <li>
-                            Estruturação de layouts responsivos
-                        </li>
-                    </ul>
-                    </p>
-                <p class="subtitle">
-                    Cada projeto representa um passo da minha evolução técnica. Mais do que “funcionar”, eu busco entender por que funciona, e como melhorar arquitetura, desempenho e experiência do usuário.
-                </p>
-                <p class="subtitle">
-                    Essa landing page, inclusive, faz parte desse processo — onde além do código, também trabalhei o planejamento visual e estrutura do design antes da implementação.
-                </p>
-            </div>
-        </div>
-
-        <div id="tela-contato">
-            <div id="card-contatos">
-                <div id="primeiro-grid">
-                    <h1 id="titulo-cnt" class="title">Deixe uma mensagem legal, que tal?</h1>  
-                        <form id="form-cnt" action="" method="post">
-                        <label for="cxt_email">Email:</label>
-                        <input id="cxt_email" class="cxt" type="text">
-                        <label for="cxt_nome">Nome:</label>
-                        <input id="nome"type="text" class="cxt">
-                        <label for="cxt_assunto">Assunto:</label>
-                        <textarea id="assunto" type="text" class="cxt"></textarea>
-                        <button id="send">Enviar</button>
-                        </form>
-                </div>
-                <div id="segundo-grid">
-                    <h1 id="titulo-cnt" class="title">Quer ver mais dos meus trabalhos?</h1>
-                    <!-- Place this tag where you want the button to render. -->
-                <!-- <a class="github-button" href="https://github.com/1Luisin" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @1Luisin on GitHub">@1Luisin</a>
-                -->
-                    <div id="area-icons-cnt">
-                        <a href="https://gitlab.com/1Luisin">
-                            <img class="icons-cnt" src="./assets/img/icons/github.png" alt="">
-                        </a>
-                        <a href="https://gitlab.com/1Luisin">
-                            <img class="icons-cnt" src="./assets/img/icons/gitlab.png" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/luisguilhermesantos/">
-                            <img  class="icons-cnt" src="./assets/img/icons/linkedin.png" alt="">
-                            </a>
-                    </div>
-                    <div id="text-cnt">
-                        <p class="subtitle-cnt">
-                            Se você é recrutador, profissional da área ou quer trocar ideias sobre tecnologia, projetos ou desenvolvimento, será um prazer conversar.
-                        </p>
-                        <p class="subtitle-cnt">
-                            Estou sempre aberto a:
-                        </p>
-                        <ul id="list-cnt">
-                            <li>
-                                Oportunidades
-                            </li>
-                            <li>
-                                Networking na área de TI
-                            </li>
-                            <li>
-                                Troca de conhecimento
-                            </li>
-                            <li>
-                                Colaborações em projetos
-                            </li>
-                        </ul>
-                        <p class="subtitle-cnt">
-                            📬 Entre em contato comigo e vamos construir algo incrível.
-                        </p>
-                    </div>
-            </div>
-
-                
-                
-            </div>
-        
-
-        </div>
-        
-    </main>
-
+      </div>
+      <aside class="profile-card" aria-label="Perfil de Luis Guilherme">
+        <div class="card-top"><span>POR TRÁS DO CÓDIGO</span><span aria-hidden="true">✳</span></div>
+        <div class="portrait-frame"><img src="./assets/img/icon.jpg" width="250" height="250" alt="Avatar de Luis Guilherme" fetchpriority="high"></div>
+        <div class="profile-details"><div><h2>1Luisin<span class="accent">.</span></h2><p>Developer & Designer</p></div><span class="profile-arrow" aria-hidden="true">↗</span></div>
+        <div class="profile-footer"><span class="status-dot" aria-hidden="true"></span> Aberto a conexões e oportunidades</div>
+      </aside>
+      <div class="hero-bottom"><span>Curiosidade para aprender. Vontade de construir.</span><a href="#sobre">Continue explorando <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <div class="skills-strip"><div class="container skills"><span>EM CONSTANTE APRENDIZADO</span><ul aria-label="Áreas de estudo"><li>HTML & CSS</li><li>Desenvolvimento web</li><li>.NET</li><li>Design de interfaces</li></ul></div></div>
+    <section class="section container about" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="about-visual"><img src="./assets/img/escritorio.jpg" width="600" height="400" alt="Ambiente de trabalho com computador" loading="lazy"><span class="image-caption">UM POUCO DO MEU UNIVERSO <span aria-hidden="true">↗</span></span></div>
+      <div class="about-copy"><p class="eyebrow">01 / SOBRE MIM</p><h2 id="sobre-titulo">Curioso por natureza.<br>Desenvolvedor em formação.</h2><p>Sempre quis entender o que acontece por trás da tela. Essa curiosidade me trouxe para a programação — e continua guiando o que eu aprendo e construo.</p><p>Meu foco está em desenvolvimento web e .NET. Nos projetos pessoais, busco unir organização, lógica e cuidado com a experiência de quem usa.</p><p>Fora do código, animes, jogos e cultura oriental também fazem parte do meu universo e da minha criatividade.</p><div class="about-note"><span aria-hidden="true">↳</span> Aprender, construir, melhorar. Um projeto de cada vez.</div></div>
+    </section>
+    <section class="projects-section" id="projetos" aria-labelledby="projetos-titulo"><div class="container section">
+      <div class="section-heading"><div><p class="eyebrow">02 / DO ESTUDO À PRÁTICA</p><h2 id="projetos-titulo">Código que vira experiência<span class="accent">.</span></h2></div><a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Explorar GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div>
+      <article class="featured-project"><div class="project-image"><img src="./assets/img/black-white-code.png" width="600" height="400" alt="Código de programação em uma tela escura" loading="lazy"><span class="project-number">PROJETO 01</span></div><div class="project-copy"><span class="project-label">DESIGN + DESENVOLVIMENTO</span><h3>Meu espaço na web.</h3><p>Este portfólio é parte da minha evolução: do planejamento visual à construção de uma página para apresentar quem sou, o que estudo e o que quero construir.</p><ul class="tags" aria-label="Tecnologias do portfólio"><li>HTML</li><li>CSS</li><li>Layout responsivo</li></ul><a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Conheça meus repositórios <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div></article>
+      <div class="learning-grid"><div><span class="small-number">01</span><h3>Interfaces com propósito</h3><p>Layouts responsivos, hierarquia visual e atenção aos detalhes.</p></div><div><span class="small-number">02</span><h3>Além da interface</h3><p>Estudos em CRUD, APIs, banco de dados e integração entre front-end e back-end.</p></div><div><span class="small-number">03</span><h3>Evolução contínua</h3><p>Organização de código e separação de responsabilidades em cada novo projeto.</p></div></div>
+    </div></section>
+    <section class="section container contact" id="contato" aria-labelledby="contato-titulo"><div class="contact-copy"><p class="eyebrow">03 / VAMOS CONVERSAR</p><h2 id="contato-titulo">Uma boa conversa pode<br>ser o próximo <span class="accent">começo.</span></h2><p>Tem uma oportunidade, uma ideia de projeto ou quer trocar experiências sobre tecnologia? Vai ser um prazer conversar.</p><a class="button button-primary" href="https://www.linkedin.com/in/luisguilhermesantos/" target="_blank" rel="noopener noreferrer">Conversar no LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div><div class="social-links" aria-label="Redes sociais"><a href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer"><span><span class="social-label">CÓDIGO & PROJETOS</span>GitHub</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a href="https://gitlab.com/1Luisin" target="_blank" rel="noopener noreferrer"><span><span class="social-label">MAIS REPOSITÓRIOS</span>GitLab</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a href="https://www.linkedin.com/in/luisguilhermesantos/" target="_blank" rel="noopener noreferrer"><span><span class="social-label">CONEXÕES & OPORTUNIDADES</span>LinkedIn</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div></section>
+  </main>
+  <footer class="container footer"><a class="logo" href="#inicio">1Luisin<span>.</span></a><p>Feito com curiosidade, código e café.</p><a class="text-link" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a></footer>
 </body>
-
 </html>
