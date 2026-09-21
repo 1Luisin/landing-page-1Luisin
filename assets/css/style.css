@@ -256,7 +256,7 @@ a:focus-visible {
   width:190px;
   height:190px;
   border-radius:50%;
-  filter:grayscale(1);
+  object-position:50% 40%;
 }
 
 .profile-details {
