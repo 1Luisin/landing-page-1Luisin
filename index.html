@@ -10,6 +10,7 @@
     <title>Luis Guilherme — Desenvolvimento & Design</title>
     <link rel="icon" href="./assets/img/icon.jpg" type="image/jpeg">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/projects.js" defer></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                 <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> DESENVOLVIMENTO & DESIGN</p>
                 <h1 id="titulo">Ideias na cabeça.<br>Código na tela<span class="accent">.</span></h1>
                 <p class="hero-intro">Olá, eu sou <strong>Luis Guilherme.</strong></p>
-                <p class="hero-description">Estudante de Análise e Desenvolvimento de Sistemas, explorando a conexão
+                <p class="hero-description">Analista e Desenvolvedor de Sistemas, explorando a conexão
                     entre código bem estruturado e interfaces que fazem sentido.</p>
                 <div class="actions">
                     <a class="button button-primary" href="#projetos">Conheça meu trabalho <span
@@ -57,10 +58,11 @@
         <div class="skills-strip">
             <div class="container skills"><span>EM CONSTANTE APRENDIZADO</span>
                 <ul aria-label="Áreas de estudo">
-                    <li>HTML & CSS</li>
                     <li>Desenvolvimento web</li>
-                    <li>.NET</li>
                     <li>Design de interfaces</li>
+                    <li>Java</li>
+                    <li>.NET</li>
+                    <li>SQL</li>
                 </ul>
             </div>
         </div>
@@ -73,7 +75,7 @@
                 <h2 id="sobre-titulo">Curioso por natureza.<br>Desenvolvedor em formação.</h2>
                 <p>Sempre quis entender o que acontece por trás da tela. Essa curiosidade me trouxe para a programação —
                     e continua guiando o que eu aprendo e construo.</p>
-                <p>Meu foco está em desenvolvimento web e .NET. Nos projetos pessoais, busco unir organização, lógica e
+                <p>Meu foco está em desenvolvimento web, SQL e desenvolvimento Back-End. Nos projetos pessoais, busco unir organização, lógica e
                     cuidado com a experiência de quem usa.</p>
                 <p>Fora do código, animes, jogos e cultura oriental também fazem parte do meu universo e da minha
                     criatividade.</p>
@@ -91,23 +93,96 @@
                         rel="noopener noreferrer">Explorar GitHub <span aria-hidden="true">↗</span><span
                             class="sr-only"> (abre em nova aba)</span></a>
                 </div>
-                <article class="featured-project">
-                    <div class="project-image"><img src="./assets/img/black-white-code.png" width="600" height="400"
-                            alt="Código de programação em uma tela escura" loading="lazy"><span
-                            class="project-number">PROJETO 01</span></div>
-                    <div class="project-copy"><span class="project-label">DESIGN + DESENVOLVIMENTO</span>
-                        <h3>Meu espaço na web.</h3>
-                        <p>Este portfólio é parte da minha evolução: do planejamento visual à construção de uma página
-                            para apresentar quem sou, o que estudo e o que quero construir.</p>
-                        <ul class="tags" aria-label="Tecnologias do portfólio">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Layout responsivo</li>
-                        </ul><a class="text-link" href="https://github.com/1Luisin" target="_blank"
-                            rel="noopener noreferrer">Conheça meus repositórios <span aria-hidden="true">↗</span><span
-                                class="sr-only"> (abre em nova aba)</span></a>
+                <div class="project-carousel" role="region" aria-roledescription="carrossel" aria-label="Projetos desenvolvidos" tabindex="0">
+                    <div class="carousel-viewport">
+                        <div class="carousel-track">
+                    <article class="featured-project project-slide" id="projeto-1" role="group" aria-roledescription="slide" aria-label="1 de 5: Pend?ncias M?dicas">
+                        <div class="project-image">
+                            <img src="./assets/img/black-white-code.png" data-project-image="./assets/img/projects/pendencias-medicas.png" width="1366" height="768" alt="Imagem ilustrativa de c?digo; captura de Pend?ncias M?dicas pendente" loading="lazy">
+                            <span class="project-number">PROJETO 01 / 05</span>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-label">GESTÃO HOSPITALAR</span>
+                            <h3>Pendências Médicas</h3>
+                            <p>Sistema para registrar e acompanhar pendências médicas, com visão das solicitações em aberto e resolvidas. Reúne acompanhamento gerencial e dashboard para organizar o fluxo de trabalho.</p>
+                            <ul class="tags" aria-label="Tecnologias de Pend?ncias M?dicas"><li>Next.js</li><li>React</li><li>JavaScript</li><li>SQL</li></ul>
+                            <a class="text-link project-repo" href="https://github.com/1Luisin/painel-pendencias-medicas-scmjf" target="_blank" rel="noopener noreferrer">Ver este projeto <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                            <a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Conheça meus repositórios <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                        </div>
+                    </article>
+                    <article class="featured-project project-slide" id="projeto-2" role="group" aria-roledescription="slide" aria-label="2 de 5: Checagem Nutricional">
+                        <div class="project-image">
+                            <img src="./assets/img/black-white-code.png" data-project-image="./assets/img/projects/checagem-nutricional.png" width="1366" height="768" alt="Imagem ilustrativa de c?digo; captura de Checagem Nutricional pendente" loading="lazy">
+                            <span class="project-number">PROJETO 02 / 05</span>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-label">NUTRI??O HOSPITALAR</span>
+                            <h3>Checagem Nutricional</h3>
+                            <p>Painel operacional para acompanhar checagens de refei??es, pend?ncias e cuidados nutricionais. Centraliza indicadores de entregas, recusas e alertas assistenciais para apoiar a rotina do servi?o de nutri??o.</p>
+                            <ul class="tags" aria-label="Tecnologias de Checagem Nutricional"><li>PHP</li><li>Node.js / Express</li><li>JavaScript</li><li>SQL / Oracle</li></ul>
+                            <a class="text-link project-repo" href="https://github.com/1Luisin/ChecagemNutricao_new" target="_blank" rel="noopener noreferrer">Ver este projeto <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                            <a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Conhe?a meus reposit?rios <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                        </div>
+                    </article>
+                    <article class="featured-project project-slide" id="projeto-3" role="group" aria-roledescription="slide" aria-label="3 de 5: Busy Monitor">
+                        <div class="project-image">
+                            <img src="./assets/img/black-white-code.png" data-project-image="./assets/img/projects/busy-monitor.png" width="1366" height="768" alt="Imagem ilustrativa de c?digo; captura de Busy Monitor pendente" loading="lazy">
+                            <span class="project-number">PROJETO 03 / 05</span>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-label">MONITORAMENTO DE SERVIDORES</span>
+                            <h3>Busy Monitor</h3>
+                            <p>Painel de monitoramento de servidores com atualiza??o autom?tica e leitura de API local. Apresenta estado dos servidores, erros, conex?es abertas e indicadores de busy em uma vis?o consolidada.</p>
+                            <ul class="tags" aria-label="Tecnologias de Busy Monitor"><li>Python</li><li>Flask</li><li>HTML / CSS</li><li>SQL</li></ul>
+                            <a class="text-link project-repo" href="https://github.com/1Luisin/busy-monitor" target="_blank" rel="noopener noreferrer">Ver este projeto <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                            <a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Conhe?a meus reposit?rios <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                        </div>
+                    </article>
+                    <article class="featured-project project-slide" id="projeto-4" role="group" aria-roledescription="slide" aria-label="4 de 5: TI Helper">
+                        <div class="project-image">
+                            <img src="./assets/img/black-white-code.png" data-project-image="./assets/img/projects/ti-helper.png" width="1366" height="768" alt="Imagem ilustrativa de c?digo; captura de TI Helper pendente" loading="lazy">
+                            <span class="project-number">PROJETO 04 / 05</span>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-label">OPERA??ES DE TI</span>
+                            <h3>TI Helper</h3>
+                            <p>Central desktop que re?ne servidores, servi?os, queries SQL, scripts e hist?rico de opera??es. O prot?tipo p?blico utiliza a??es simuladas e dados locais para demonstrar os fluxos de trabalho da equipe de TI.</p>
+                            <ul class="tags" aria-label="Tecnologias de TI Helper"><li>Java 21</li><li>JavaFX / FXML</li><li>Maven</li><li>SQL</li></ul>
+                            <a class="text-link project-repo" href="https://github.com/1Luisin/TI-HELPER" target="_blank" rel="noopener noreferrer">Ver este projeto <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                            <a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Conhe?a meus reposit?rios <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                        </div>
+                    </article>
+                    <article class="featured-project project-slide" id="projeto-5" role="group" aria-roledescription="slide" aria-label="5 de 5: SCMJF Telefonia">
+                        <div class="project-image">
+                            <img src="./assets/img/black-white-code.png" data-project-image="./assets/img/projects/telefonia.png" width="1366" height="768" alt="Imagem ilustrativa de c?digo; captura de SCMJF Telefonia pendente" loading="lazy">
+                            <span class="project-number">PROJETO 05 / 05</span>
+                        </div>
+                        <div class="project-copy">
+                            <span class="project-label">AUTOMA??O DE TELEFONIA</span>
+                            <h3>SCMJF Telefonia</h3>
+                            <p>Aplicativo Windows integrado a telefones IP Yealink. Recebe eventos de chamadas, consolida o hist?rico e re?ne contatos, dispositivos e diagn?stico, com armazenamento local e controle do aparelho pela rede interna.</p>
+                            <ul class="tags" aria-label="Tecnologias de SCMJF Telefonia"><li>C# / .NET</li><li>WPF</li><li>ASP.NET Core</li><li>SQL / SQLite</li><li>EF Core</li></ul>
+                            <a class="text-link project-repo" href="https://github.com/1Luisin/registro-automatizado-ramal" target="_blank" rel="noopener noreferrer">Ver este projeto <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                            <a class="text-link" href="https://github.com/1Luisin" target="_blank" rel="noopener noreferrer">Conhe?a meus reposit?rios <span aria-hidden="true">?</span><span class="sr-only"> (abre em nova aba)</span></a>
+                        </div>
+                    </article>
+                        </div>
                     </div>
-                </article>
+                    <div class="carousel-controls" hidden>
+                        <p class="carousel-count" aria-live="polite" aria-atomic="true">01 / 05 ? Pend?ncias M?dicas</p>
+                        <div class="carousel-dots" aria-label="Escolher projeto">
+                            <button type="button" class="carousel-dot" data-slide="0" aria-label="Mostrar Pend?ncias M?dicas" aria-controls="projeto-1" aria-current="true"></button>
+                            <button type="button" class="carousel-dot" data-slide="1" aria-label="Mostrar Checagem Nutricional" aria-controls="projeto-2" aria-current="false"></button>
+                            <button type="button" class="carousel-dot" data-slide="2" aria-label="Mostrar Busy Monitor" aria-controls="projeto-3" aria-current="false"></button>
+                            <button type="button" class="carousel-dot" data-slide="3" aria-label="Mostrar TI Helper" aria-controls="projeto-4" aria-current="false"></button>
+                            <button type="button" class="carousel-dot" data-slide="4" aria-label="Mostrar SCMJF Telefonia" aria-controls="projeto-5" aria-current="false"></button>
+                        </div>
+                        <div class="carousel-arrows">
+                            <button type="button" class="carousel-arrow" data-direction="-1" aria-label="Projeto anterior"><span aria-hidden="true">?</span></button>
+                            <button type="button" class="carousel-arrow" data-direction="1" aria-label="Pr?ximo projeto"><span aria-hidden="true">?</span></button>
+                        </div>
+                    </div>
+                </div>
                 <div class="learning-grid">
                     <div><span class="small-number">01</span>
                         <h3>Interfaces com propósito</h3>

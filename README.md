@@ -1,4 +1,4 @@
-﻿# 1Luisin — Portfólio pessoal
+# 1Luisin — Portfólio pessoal
 
 Landing page de Luis Guilherme, feita com HTML e CSS e fontes locais, sem dependências de instalação.
 
