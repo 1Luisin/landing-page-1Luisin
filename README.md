@@ -18,7 +18,7 @@ As outras folhas de estilo são arquivos legados e não são carregadas pela pá
 ## Melhorias realizadas
 
 - Apresentação inicial com proposta mais clara e chamadas para projetos e contato.
-- Identidade escura com destaque verde, hierarquia tipográfica e espaçamento consistente.
+- Identidade escura com destaque azul claro, hierarquia tipográfica e espaçamento consistente.
 - Navegação por âncoras reais e correção do link do GitHub.
 - Layout fluido, sem alturas fixas nas seções de conteúdo.
 - Um único título principal, seções semânticas, imagens com descrição, foco visível e link para pular ao conteúdo.
