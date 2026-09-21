@@ -11,6 +11,7 @@
     <link rel="icon" href="./assets/img/icon.jpg" type="image/jpeg">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/projects.js" defer></script>
+    <script src="./assets/js/image-viewer.js" defer></script>
 </head>
 
 <body>
@@ -98,7 +99,7 @@
                         <div class="carousel-track">
                     <article class="featured-project project-slide" id="projeto-1" role="group" aria-roledescription="slide" aria-label="1 de 5: Pend?ncias M?dicas">
                         <div class="project-image">
-                            <img src="./assets/img/projects/pendencias-medicas.jpeg" width="1364" height="767" alt="Painel de solicitações e pendências médicas" loading="lazy">
+                            <a class="project-zoom" href="./assets/img/projects/pendencias-medicas.jpeg" target="_blank" rel="noopener" aria-label="Ampliar imagem do projeto"><img src="./assets/img/projects/pendencias-medicas.jpeg" width="1364" height="767" alt="Painel de solicitações e pendências médicas" loading="lazy"><span class="project-zoom-label" aria-hidden="true">&#x2922; Ampliar imagem</span></a>
                             <span class="project-number">PROJETO 01 / 05</span>
                         </div>
                         <div class="project-copy">
@@ -112,7 +113,7 @@
                     </article>
                     <article class="featured-project project-slide" id="projeto-2" role="group" aria-roledescription="slide" aria-label="2 de 5: Checagem Nutricional">
                         <div class="project-image">
-                            <img src="./assets/img/projects/checagem-nutricional.jpeg" width="1366" height="768" alt="Visão geral das checagens e cuidados nutricionais" loading="lazy">
+                            <a class="project-zoom" href="./assets/img/projects/checagem-nutricional.jpeg" target="_blank" rel="noopener" aria-label="Ampliar imagem do projeto"><img src="./assets/img/projects/checagem-nutricional.jpeg" width="1366" height="768" alt="Visão geral das checagens e cuidados nutricionais" loading="lazy"><span class="project-zoom-label" aria-hidden="true">&#x2922; Ampliar imagem</span></a>
                             <span class="project-number">PROJETO 02 / 05</span>
                         </div>
                         <div class="project-copy">
@@ -126,7 +127,7 @@
                     </article>
                     <article class="featured-project project-slide" id="projeto-3" role="group" aria-roledescription="slide" aria-label="3 de 5: Busy Monitor">
                         <div class="project-image">
-                            <img src="./assets/img/projects/busy-monitor.jpeg" width="1366" height="768" alt="Painel de monitoramento e telemetria dos servidores" loading="lazy">
+                            <a class="project-zoom" href="./assets/img/projects/busy-monitor.jpeg" target="_blank" rel="noopener" aria-label="Ampliar imagem do projeto"><img src="./assets/img/projects/busy-monitor.jpeg" width="1366" height="768" alt="Painel de monitoramento e telemetria dos servidores" loading="lazy"><span class="project-zoom-label" aria-hidden="true">&#x2922; Ampliar imagem</span></a>
                             <span class="project-number">PROJETO 03 / 05</span>
                         </div>
                         <div class="project-copy">
@@ -140,7 +141,7 @@
                     </article>
                     <article class="featured-project project-slide" id="projeto-4" role="group" aria-roledescription="slide" aria-label="4 de 5: TI Helper">
                         <div class="project-image">
-                            <img src="./assets/img/projects/ti-helper.jpeg" width="1366" height="768" alt="Dashboard de operações do TI Helper" loading="lazy">
+                            <a class="project-zoom" href="./assets/img/projects/ti-helper.jpeg" target="_blank" rel="noopener" aria-label="Ampliar imagem do projeto"><img src="./assets/img/projects/ti-helper.jpeg" width="1366" height="768" alt="Dashboard de operações do TI Helper" loading="lazy"><span class="project-zoom-label" aria-hidden="true">&#x2922; Ampliar imagem</span></a>
                             <span class="project-number">PROJETO 04 / 05</span>
                         </div>
                         <div class="project-copy">
@@ -154,7 +155,7 @@
                     </article>
                     <article class="featured-project project-slide" id="projeto-5" role="group" aria-roledescription="slide" aria-label="5 de 5: SCMJF Telefonia">
                         <div class="project-image">
-                            <img src="./assets/img/projects/telefonia.jpeg" width="1366" height="768" alt="Dashboard de chamadas e dispositivos do SCMJF Telefonia" loading="lazy">
+                            <a class="project-zoom" href="./assets/img/projects/telefonia.jpeg" target="_blank" rel="noopener" aria-label="Ampliar imagem do projeto"><img src="./assets/img/projects/telefonia.jpeg" width="1366" height="768" alt="Dashboard de chamadas e dispositivos do SCMJF Telefonia" loading="lazy"><span class="project-zoom-label" aria-hidden="true">&#x2922; Ampliar imagem</span></a>
                             <span class="project-number">PROJETO 05 / 05</span>
                         </div>
                         <div class="project-copy">
@@ -225,6 +226,18 @@
         <p>Feito com curiosidade, código e café.</p><a class="text-link" href="#inicio">Voltar ao topo <span
                 aria-hidden="true">↑</span></a>
     </footer>
+    <dialog class="image-viewer" aria-labelledby="image-viewer-title">
+        <div class="image-viewer-toolbar">
+            <h2 id="image-viewer-title">Imagem do projeto</h2>
+            <div class="image-viewer-actions">
+                <button type="button" class="image-viewer-toggle" aria-pressed="false">Zoom +</button>
+                <button type="button" class="image-viewer-close" autofocus aria-label="Fechar imagem ampliada">Fechar <span aria-hidden="true">&times;</span></button>
+            </div>
+        </div>
+        <div class="image-viewer-stage" tabindex="0" role="region" aria-label="Imagem ampliada; use a rolagem para explorar no modo zoom">
+            <img class="image-viewer-image" alt="">
+        </div>
+    </dialog>
 </body>
 
 </html>
