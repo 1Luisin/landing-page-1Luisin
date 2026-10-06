@@ -29,9 +29,12 @@ As outras folhas de estilo são arquivos legados e não são carregadas pela pá
 ## Personalização
 
 Edite textos e endereços no HTML. As cores estão nas variáveis de `:root` no CSS.
-O carrossel apresenta cinco projetos, com capturas reais em `assets/img/projects/`, descrições, tecnologias e links para o projeto e o perfil do GitHub. A navegação está em `assets/js/projects.js`, com setas, indicadores, teclado e toque. As imagens originais foram copiadas sem alterações.
+O carrossel apresenta sete projetos, com capturas reais em `assets/img/projects/`, descrições, tecnologias e links para o projeto e o perfil do GitHub. A navegação está em `assets/js/projects.js`, com setas, indicadores, teclado e toque. As imagens originais foram copiadas sem alterações.
 Não há formulário nem processamento de mensagens. Para adicionar envio por e-mail, será necessário configurar um serviço e o endereço de destino.
 
 ## Verificação
 
 Verificados localmente: destino das âncoras, IDs únicos, título principal, presença dos arquivos e fonte, descrições das imagens e proteção dos links em nova aba. A revisão visual em navegadores e dispositivos reais continua recomendada.
+
+
+Isso Facilita! e Lutech possuem capturas das páginas públicas e links diretos para os sites. Tecnologias identificadas nos recursos publicados: Next.js/React, JavaScript e CSS no Isso Facilita!; HTML, CSS e JavaScript no Lutech.
